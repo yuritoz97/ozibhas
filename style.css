@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../Ozibhas/font/BebasNeue-Regular.woff2') format('woff2'),
+         url('../Ozibhas/font/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(148, 147, 206);
+}
+
+.principal{
+    background-color: rgb(248, 242, 242);
+    width: 261px;
+    height: 487px;
+    margin: auto;
+}
+
+.cfg_titulo{
+    font-family: 'bebas_neueregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    display: block;
+}
+
+#titulo{
+    margin-top: 6px;
+    margin-left: 130px;
+}
+
+.cfg_letra{
+    font-family: 'bebas_neueregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    display: block;
+}
+
+#a{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#b{
+    margin-top: 5px;
+    margin-left: 37px;
+}
+
+#c{
+    margin-top: 5px;
+    margin-left: 28px;
+}
+
+.cfg_input{
+    display: block;
+    width: 59px;
+    height: 43px;
+    background: rgba(249, 235, 235, 0.61);
+    border-radius: 8px;
+    text-align: center;
+}
+
+#input_a{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#input_b{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#input_c{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.cfg_button{
+    font-family: 'bebas_neueregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    display: block;
+    background-color: rgba(127, 224, 189, 1);
+    border-radius: 8px;
+    width: 224px;
+}
+
+#calcular{
+    margin-top: 14px;
+    margin-left: 18px;
+}
+
+#left{
+    position: relative;
+    top: 170px;
+    left: 15px;
+}
+
+#right{
+    position: relative;
+    top: -116px;
+    left: 83px;
+}
